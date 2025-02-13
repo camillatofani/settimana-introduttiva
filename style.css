@@ -15,9 +15,42 @@ h1 {
 	margin: 50px;
 }
 
-
-
 #title {
 	font-weight: 300;
 	color: gray;
 }
+
+div {
+	background-color: red;
+	color: white;
+}
+
+.inline {
+	display: inline;
+	background-color: gray;
+}
+
+.block {
+	display: block;
+	color: green;
+}
+
+.flex {
+	display: flex;
+	/* flex-direction: row; */
+	flex-direction: column;
+	padding: 20px;
+}
+
+button {
+	background-color: purple;
+}
+
+button:hover {
+	background-color: green;
+}
+
+
+/* img {
+	width: 900px;
+} */
