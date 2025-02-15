@@ -1,3 +1,9 @@
+:root {
+	--primary: purple;
+	--secondary: rgba(0, 242, 255, 0.5);
+	--third:rgb(47, 255, 0);
+}
+
 h1 {
 	color: green;
 	text-align: right;
@@ -54,3 +60,50 @@ button:hover {
 /* img {
 	width: 900px;
 } */
+
+p.bg-primary {
+	background-color: var(--primary);
+}
+
+p .bg-secondary {
+	background-color: var(--third);
+}
+
+.imageTest {
+	width: 520px;
+	padding: 30px;
+	background-color: blue;
+}
+
+.tel {
+	background-color: green;
+	color: var(--secondary);
+	text-align: center;
+}
+
+@media (max-width: 600px) {
+	p.bg-primary {
+		background-color: yellow;
+		color: blue;
+	}
+	.imageTest {
+		width: 100%;
+		padding: 0px;
+		border: solid 2px #ff0000;
+		border-radius: 30px;
+	}
+	.tel {
+		position: fixed;
+		bottom: 0px;
+		right: 0px;
+	}
+}
+
+@media (max-width: 480px) {
+	p.bg-primary {
+		background-color: #ff00ff;
+	}
+	.tel {
+		display: none;
+	}
+}
