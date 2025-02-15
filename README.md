@@ -33,7 +33,10 @@ git clone https://github.com/camillatofani/settimana-introduttiva.git
 - Come inserire lo stile all'interno del file style.css
 - Che cosa sono le classi
 - Che cosa sono gli id
-- L'importanza gerarchica dello stile tra: tag, classe, id e style inline (<h1 class="intestazione" id="titolo" style="color: red;">Ciao</h1>)
+- L'importanza gerarchica dello stile tra: tag, classe, id e style inline:
+```bash
+ <h1 class="intestazione" id="titolo" style="color: red;">Ciao</h1>
+```
 - Modificare i valori di default del css
 - Come si ispeziona il codice (Tasto destro del mouse all'interno del browser)
 - Come modificare momentaneamente lo stile del sito direttamente dal browser
