@@ -34,7 +34,7 @@ git clone https://github.com/camillatofani/settimana-introduttiva.git
 - Che cosa sono le classi
 - Che cosa sono gli id
 - L'importanza gerarchica dello stile tra: tag, classe, id e style inline:
-```bash
+```html
  <h1 class="intestazione" id="titolo" style="color: red;">Ciao</h1>
 ```
 - Modificare i valori di default del css
@@ -49,9 +49,30 @@ git clone https://github.com/camillatofani/settimana-introduttiva.git
 - Corretto insieme il progetto di uno studente. Lo trovate [qui](https://github.com/ValCode26/valentin-code.git)
 - Parlato dell'indentazione del codice [qui un approfondimento](https://it.wikipedia.org/wiki/Indentazione)
 - Creato :root per gestire le variabili in css
-- Visto come poter inserire il colore all'interno del nostro css, ad esempio per il rosso: "red", "rgba(255,0,0,0)" e "#ff0000"
-- Modificato le classi css all'interno delle media queries per far diventare il nostro sito responsive
-- Visto la differenza tra "ul.bg-color" e "ul .bg-color"
+- Visto come poter inserire il colore all'interno del nostro css, ad esempio per il rosso:
+```css
+ color: red;
+ color: rgba(255,0,0,0);
+ color: #ff0000
+```
+- Modificato le classi css all'interno delle media queries per far diventare il nostro sito responsive:
+```css
+@media (max-width: 480px) {
+	.tel {
+		display: none;
+	}
+}
+```
+- Visto la differenza tra "p.bg-color" e "p .bg-color"
+```css
+p.bg-primary {
+	background-color: var(--primary);
+}
+
+p .bg-secondary {
+	background-color: var(--third);
+}
+```
 - Visto che la nomenclatura dei file non può contenere spazi
 - Abbiamo visto che solo un file, quello principale, si deve chiamare index.html, tutti gli altri devono essere chiamati diversamente
 - Ogni nome che inseriamo deve essere "parlante", quindi spiegare a che cosa serve il determinato elemento. Ad esempio la pagina contatti la chiameremo contact.html e quella dello shop la chiameremo shop.html. Idem per il nome delle classi
