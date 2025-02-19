@@ -108,3 +108,6 @@ p .bg-secondary {
 - Visto che la nomenclatura dei file non può contenere spazi
 - Abbiamo visto che solo un file, quello principale, si deve chiamare index.html, tutti gli altri devono essere chiamati diversamente
 - Ogni nome che inseriamo deve essere "parlante", quindi spiegare a che cosa serve il determinato elemento. Ad esempio la pagina contatti la chiameremo contact.html e quella dello shop la chiameremo shop.html. Idem per il nome delle classi
+
+### Da Martedì 18 a Venerdì 21
+Qui il nuovo repository: [qui](https://github.com/camillatofani/project-mia-febbraio)
